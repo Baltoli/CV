@@ -1,0 +1,315 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Bruce Collie}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {computer science},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+%\renewenvironment{itemize}{
+%  \begin{list}{}{
+%    \setlength{\leftmargin}{1.5em}
+%  }
+%}{
+%  \end{list}
+%}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  Trinity Hall \\
+  Trinity Lane \\
+  Cambridge, UK \\
+  CB2 1TJ
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & +447591 461 843 \\
+    Email: & \href{mailto:bsc28@cam.ac.uk}{\tt bsc28@cam.ac.uk} \\
+    Skype: & \href{skype:bruce.collie}{bruce.collie}
+  \end{tabular}
+\end{minipage}
+
+\section*{Education}
+
+\begin{itemize}
+    \item \textbf{University of Cambridge} \\
+        \begin{tabular}{c}
+            \emph{2013--2017}
+        \end{tabular}
+        \begin{itemize}
+            \item \textbf{MEng} Computer Science \\
+              \emph{In Progress}
+            \item \textbf{BA Hons.} Computer Science \\
+                \emph{Final Grade}: Class I
+        \end{itemize}
+\end{itemize}
+
+\section*{Employment}
+
+\begin{itemize}
+
+    \item \textbf{Core Payments Intern} GoCardless \\
+        \begin{tabular}{c|c}
+            \emph{June--September 2016} & \emph{London, UK}
+        \end{tabular}
+        \begin{itemize}
+          \item While at GoCardless I worked with the company's core payments
+            team to improve and develop their banking infrastructure and
+            processes.
+          \item Projects I was responsible for included adding new features to
+            internal risk and compliance tools, upgrading legacy code to allow
+            for infrastructure changes, and designing auditing methods for
+            changes to payment processes.
+          \item I also spent time as the team's first responder, dealing with
+            problems and queries about banking processes from across the
+            company.
+        \end{itemize}
+
+    \item \textbf{Mobile Presales Intern} VNC Automotive \\
+        \begin{tabular}{c|c}
+            \emph{June--September 2015} & \emph{Cambridge, UK}
+        \end{tabular}
+        \begin{itemize}
+            \item At RealVNC I was primarily responsible for prototyping an
+                implementation of Apple's CarPlay in-car entertainment software.
+            \item My role involved developing kernel drivers to support USB
+                communication with the iPhone, as well as building the
+                user-level CarPlay software itself.
+            \item As well as CarPlay, I worked on several smaller projects
+                related to the company's demonstration software that were of
+                immediate value to my team.
+        \end{itemize}
+
+    
+    \item \textbf{Mobile Development Intern} University of Cambridge, Mobile Systems Group \\
+		\begin{tabular}{c|c}
+            \emph{June 2014--April 2015} & \emph{Cambridge, UK}
+		\end{tabular}
+		\begin{itemize}
+
+            \item I built a native iOS version of an existing Android
+                application (\emph{EasyM}) for collecting survey response and
+                sensor data from users who take part in research studies.
+
+            \item As well as being of active use to researchers, my work also
+                served to evaluate the potential of Swift and iOS as a platform
+                for mobile sensing applications related to the work of the
+                research group.
+
+            \item My primary work was carried out during an internship from
+                June--September 2014, with more work being carried out part time
+                from then until April 2015. At the end of my internship period I
+                presented on my work to a group of academics at a research group
+                meeting.
+
+		\end{itemize}
+	
+    \item \textbf{Lead iOS Developer} PenPalWorld \\
+		\begin{tabular}{c|c}
+			\emph{July 2013--April 2015} & \emph{Remote}
+		\end{tabular}
+		\begin{itemize}
+
+            \item At PenPalWorld I created an iOS app for a an existing social
+                networking site with over a million users. Creating the app also
+                involved builing a custom web API to interface with the site's
+                existing database.
+
+            \item Throughout the project I worked closely with the owner
+                and founder of PenPalWorld to produce a quality end product.
+
+            \item On launch my app was used by approximately 150 unique users
+                per day, and my responsibilities were expanded to include
+                managing user satisfaction with the product.
+
+\end{itemize}
+	
+    %\item \textbf{Assistant iOS Developer} Mostly Serious \\
+%		\begin{tabular}{c|c}
+%			\emph{July - August 2012} & \emph{Remote}
+%		\end{tabular}
+%		\begin{itemize}
+%
+ %           \item I worked remotely with Mostly Serious to assist their
+  %              developers in the creation of a time tracking appliction for the
+   %             iPhone.
+%
+%		\end{itemize}
+	
+    %\item \textbf{Bioengineering Intern} Heriot Watt University, Chemical Engineering Department \\
+%		\begin{tabular}{c|c}
+%			\emph{July - August 2012} & \emph{Edinburgh, UK}
+%		\end{tabular}
+%		\begin{itemize}
+%
+%            \item During my 5\textsuperscript{th} year at school I took part in
+%                the Nuffield bursary scheme. I spent the summer working to
+%                create an automated feedback system for controlling the growth
+%                of yeast in a fermenter.
+%
+%		\end{itemize}
+\end{itemize}
+
+\section*{Other Projects}
+
+\begin{itemize}
+
+    \item \textbf{An Implementation of the $\pi$-Calculus} Part II Project \\
+        \begin{tabular}{c|c}
+            \emph{October 2015--May 2016} & \emph{Cambridge, UK}
+        \end{tabular}
+        \begin{itemize}
+            \item In my final undergraduate year, my Part II project and
+                dissertation involved the development of a programming language
+                and runtime environment for the process algebra known as the
+                $\pi$-Calculus.
+
+            \item The project included a bytecode compiler for a language of my
+                own design, as well as a full scheduling virtual machine to
+                execute the bytecode.
+
+            \item In undertaking this project, I gained strong experience in
+                both the theory and practice of compiler implementation. Equally
+                important was an understanding of the problems faced when
+                building concurrent systems.
+
+            \item The final project implementation and associated dissertation
+                received a first-class mark.
+        \end{itemize}
+
+    \item \textbf{Webmaster} Trinity Hall June Event \\
+        \begin{tabular}{c|c}
+            \emph{October 2014--June 2015} & \emph{Cambridge, UK}
+        \end{tabular}
+        \begin{itemize}
+            \item In my second year of university I took on the role of
+                Webmaster for the Trinity Hall June Event 2015, the largest
+                capacity event in Cambridge University's famous May Week (with
+                2000 people attending the event).
+            \item My responsibilities included designing a bespoke, responsive
+                website design in conjunction with the event's graphic
+                designers. The site is no longer online as it has been
+                superseded by the site for 2016.
+            \item I was also responsible for managing the use of the event's
+                ticketing software. This involved both practical and technical
+                skills---I ran a team of 6 people on the night of the event to
+                control admission, as well as writing custom ticket generation
+                and distribution software.
+            \item The role required me to work effectively on a large team with
+                a wide range of interests and responsibilities.
+        \end{itemize}
+
+\end{itemize}
+
+\clearpage
+
+\section*{Skills and Technologies}
+
+    I am familiar with a wide range of programming languages and frameworks. My
+    primary areas of expertise are: \\
+
+	\begin{center}
+		\renewcommand{\arraystretch}{2}
+		\begin{tabular}{cp{10cm}}
+            C & I have a good deal of experience writing code in C, including
+            the implementation of kernel drivers and modifications to the Linux
+            kernel. My skills surrounding systems programming are strong as a
+            result of my time spent developing C. \\
+
+            Scala & My final year project was implemented in Scala, and in doing
+            so I have gained useful experience with strongly typed and
+            functional languages, as well as elements of type theory. \\
+
+            Python & I have experience with Python in a wide variety of
+            contexts. My uses for it include analysis of experimental data,
+            scripting / automation and development of web APIs using flask. \\
+
+            iOS & I have been developing iOS applications both personally and
+            professionally for over 3 years. My experience includes using both
+            Objective-C and Swift. \\
+
+            Java & I have used Java in a variety of contexts throughout my
+            development career. These include writing significant programs for
+            editing graphics, multithreaded and network programming.
+        \end{tabular}
+\end{center}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
