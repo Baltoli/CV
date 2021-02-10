@@ -47,7 +47,7 @@
 
 % Default font is the helvetica postscript font
 \usepackage{helvet}
-
+\usepackage{url}
 \usepackage{hyperref}
 
 % Increase text height
@@ -66,7 +66,7 @@
 % -linked-in profile
 
 \address{\href{mailto://bruce.collie@ed.ac.uk}{\texttt{bruce.collie@ed.ac.uk}}\\\href{http://baltoli.github.io}{\texttt{baltoli.github.io}}\\07591461843}
-\address{104/3 Blackford Avenue\\Edinburgh\\EH9 3ES}
+\address{7/2 Ardmillan Terrace\\Edinburgh\\EH11 2JN}
 
 % Uncomment to add a third address
 %\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
@@ -74,9 +74,6 @@
 
 \begin{resume}
 
-%-------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%-------------------------------------------------------------------------------
 \section{EDUCATION}
 \textbf{University of Edinburgh}: CDT in Pervasive Parallelism \\
 {\sl PhD} (2018--)\hfill In Progress
@@ -86,29 +83,97 @@ Distinction \\\\
 \textbf{University of Cambridge}: Computer Science \\
 {\sl MEng} (2016--17)\hfill Distinction \\
 {\sl BA} (2013--16)\hfill $1^{\mathrm{st}}$ Class
-%-------------------------------------------------------------------------------
 
-%-------------------------------------------------------------------------------
-
-%-------------------------------------------------------------------------------
-%	EXPERIENCE SECTION
-%-------------------------------------------------------------------------------
-% Modify the format of each position
 \begin{format}
 \title{l}\employer{r}\\
 \dates{l}\location{r}\\
 \body\\
 \end{format}
-%-------------------------------------------------------------------------------
 
-\section{RESEARCH}
+\section{EXPERTISE}
+
+\begin{description}
+  \item[C++] Primary programing language expertise; strong proficiency and
+    working knowledge of modern best practice when developing production
+    applications.
+  \item[Compilers] Academic and industrial experience of compiler
+implementation and theory, including significant experience with LLVM.
+  \item[Languages] Professional or substantial academic experience using C,
+    Python, Ruby, Scala, Java, and OCaml. Able to quickly adapt to new
+    languages, tools and environments.
+  \item[Tools] Familiar with common software engineering tools and workflows,
+    including source control (Git, SVN), project management (Github, JIRA) and
+    CI/CD pipelines. Significant experience with remote working practices.
+  \item[Research] Able to communicate effectively in person and through written
+    media. High-quality, award-winning publication record across multiple top
+    computer science conference venues.
+\end{description}
+
+\section{EXPERIENCE}
+
+\employer{\textbf{Research Developer, Compilers Team}}
+\location{\emph{Edinburgh, 2019--}}
+\dates{}
+\title{\textbf{Huawei}}
+\begin{position}
+Developed cutting-edge features within a production-grade compiler as part of a
+larger programming languages research team. Established and maintained developer
+tools integral to the team's work, and provided specialist C++ expertise.
+
+Successfully balanced part-time employment with PhD studies in order to gain
+experience working on large-scale, cutting edge compiler technology.
+\end{position}
+
+\employer{\textbf{Core Payments Developer}}
+\location{\emph{London, 2016}}
+\dates{}
+\title{\textbf{GoCardless}}
+\begin{position}
+Worked on developing large-scale financial web services in Ruby, with
+responsibility for developing internal libraries, performing key infrastructure
+upgrades and responding to customer bug reports. Led initial public-facing work
+on new open-source efforts by the core team.
+\end{position}
+
+\employer{\textbf{Presales Developer}}
+\location{\emph{Cambridge, 2015}}
+\dates{}
+\title{\textbf{RealVNC}}
+\begin{position}
+Developed substantial, complex embedded software to interface a proprietary
+in-car entertainment platform with Apple's CarPlay software, working with Linux
+kernel modules and device drivers.
+\end{position}
+
+\clearpage
+
+\section{PUBLICATIONS}
 
 \par
-\textbf{Heterogenous Compilation}\\
-Compilation for parallel and heterogenous architectures, with a focus on how
-legacy and future code can be automatically and transparently targeted to
-emerging libraries and devices. Performance analysis and modelling of
-competing library implementations for scientific code.
+\textbf{Modeling Black-Box Components with Probabilistic Synthesis}\\
+\emph{GPCE '20, Conference Paper (Best Paper Award)}
+
+\par
+\textbf{M$^\mathbf{3}$: Semantic API Migrations}\\
+\emph{ASE '20, Conference Paper}
+
+\par
+\textbf{Retrofitting Symbolic Holes to LLVM IR}\\
+\emph{TyDe '20, Presentation}
+
+\par
+\textbf{Automatically Harnessing Sparse Acceleration}\\
+\emph{CC '19, Conference Paper}
+
+\par
+\textbf{Type-Directed Program Synthesis and\\Constraint Generation for Library Portability}\\
+\emph{PACT '19, Conference Paper}
+
+\par
+\textbf{Augmenting Type Signatures for Program Synthesis}\\
+\emph{TyDe '19, Presentation}
+
+\section{RESEARCH\\INTERESTS}
 
 \par
 \textbf{Program Synthesis}\\
@@ -118,92 +183,26 @@ Development of new algorithms and tools for synthesizing and JIT-compiling
 imperative programs.
 
 \par
-\textbf{Verification}\\
+\textbf{Programming Language Semantics}\\
+Working at the intersection of programming languages and systems research, with
+a focus on how novel domain-specific languages and tools can be applied in
+practical contexts. Facilitated interdisciplinary seminar discussions to improve
+the flow of ideas in this area.
+
+\par
+\textbf{Heterogenous Compilation}\\
+Compilation for parallel and heterogenous architectures, with a focus on how
+legacy and future code can be automatically and transparently targeted to
+emerging libraries and devices. Performance analysis and modelling of
+competing library implementations for scientific code.
+
+\par
+\textbf{Verification \& Analysis}\\
 Static analysis and model checking for runtime assertion systems in C programs,
 aiming to improve the performance of compiler instrumentation. Development of
 profiling and analysis tools for TESLA, a runtime assertion language implemented
 as a compiler extension.
 
-\section{PUBLICATIONS}
-
-\par
-\textbf{Augmenting Type Signatures for Program Synthesis}\\
-\emph{TyDe '19, Presentation}
-
-\par
-\textbf{Exploiting Accelerator Libraries Without Polluting Your Code}\\
-\emph{PACT '19, Conference Paper (in review)}
-
-% \employer{}
-% \location{Edinburgh}
-% \dates{September 2017--}
-% \title{\textbf{}}
-% \begin{position}
-% \end{position}
-
-% \par
-% \textbf{Program Synthesis}: I am interested in how program synthesis can be
-% applied to learn behavioural models of libraries and hardware devices, using
-% novel sources of information to efficiently navigate large solution search spaces.
-
-% \par
-% \textbf{Heterogenous Compilation}: My current research deals with new
-% compilation models for heterogenous architectures, investigating how compiler
-% developers and hardware vendors can cooperate to better optimise new and legacy
-% code for the next generation of devices.
-
-% \par
-% \textbf{TESLA}: I investigated the use of static model checking techniques in the TESLA runtime
-% temporal assertion system, demonstrating significant performance improvements on
-% real instrumented code by optimising statically provable assertions.
-
-% \employer{University of Edinburgh}
-% \location{Edinburgh}
-% \dates{September 2017--}
-% \title{\textbf{PhD in Pervasive Parallelism}}
-% \begin{position}
-% My current employment is as a PhD student in the Compiler and Architecture
-% Design group at the University of Edinburgh. This position entails designing and
-% developing significant research applications, performing experiments and
-% authoring papers to showcase results. My work is primarily in C++, using the
-% LLVM compiler framework.
-% \end{position}
-
-%-------------------------------------------------------------------------------
-%	PROJECTS SECTION
-%-------------------------------------------------------------------------------
-\section{EXPERIENCE}
-
-\employer{Core Payments Developer}
-\location{London, 2016}
-\dates{}
-\title{\textbf{GoCardless}}
-\begin{position}
-Worked on developing large-scale financial web services, with responsibility for
-developing internal libraries, performing key infrastructure upgrades and
-responding to customer bug reports.
-\end{position}
-
-\employer{Presales Developer}
-\location{Cambridge, 2015}
-\dates{}
-\title{\textbf{RealVNC}}
-\begin{position}
-Developed embedded software to interface a proprietary in-car entertainment
-platform with Apple's CarPlay software, working with Linux kernel modules and
-device drivers.
-\end{position}
-
-\employer{iOS Developer}
-\location{Cambridge, 2014}
-\dates{}
-\title{\textbf{Mobile Systems Reasearch Group}}
-\begin{position}
-Worked on porting an existing user-facing mobile app for mental health
-monitoring from Android to iOS, and oversaw the deployment of this port to a new
-study. Presented a feasibility study of the Swift programming language for
-future work to researchers.
-\end{position}
 
 \end{resume}
 \end{document}
