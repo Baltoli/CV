@@ -1,0 +1,29 @@
+I have significant experience working at all stages of the compiler
+implementation process, both in an academic and an industrial context.
+
+During my undergraduate degree, I implemented a standalone compiler and runtime
+environment for a concurrent programming language as a final project. Then, my
+Master's research project focused on a novel suite of static analysis tools
+implemented as a compiler extension for Clang / LLVM. Most recently, my PhD
+research has been almost entirely implemented using LLVM, and I have developed a
+number of tools to facilitate program synthesis research in the context of a
+compiler intermediate representation.
+
+My industrial experience has focused on contributions to a large compiler
+implementation project using a novel graph-based intermediate representation;
+non-disclosure prevents me from providing further detail on my work. I have also
+driven the implementation and adoption of improved developer tooling while in
+this role.
+
+I am fluent in both C and C++, including upcoming standards, the STL and modern
+development best practice. The majority of my work (both academic and
+professional) has been implemented in C++, and I have open-sourced a number of
+standalone components from my research. Additionally, I have professional
+experience developing Linux kernel modules, and am familiar with operating
+system programming principles.
+
+In summary, my exposure to compiler construction (in both theory and
+practice) and significant experience working with modern standards in both C and
+C++ makes me a good fit for the requirements of this role. I have a deep
+interest in compiler implementation, and am passionate about producing improved
+developer tooling and infrastructure.
